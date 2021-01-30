@@ -1,0 +1,26 @@
+.App {
+  margin: 0 calc(50% - 400px);
+}
+
+h1 {
+  font-size: 36pt;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content .car {
+  background-color: #eee;
+  border: #ccc 2px solid;
+  box-shadow: 2px 2px 1px #eee;
+  padding: 10px;
+}
+.content .car h3 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
