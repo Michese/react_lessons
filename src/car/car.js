@@ -1,16 +1,16 @@
-import car from './car.module.scss'
+import carStyles from './carStyles.module.scss'
 
-let Car = props => {
-    const inputClasses = [car.input];
+const Car = props => {
+    const inputClasses = [carStyles.input];
 
     if (props.title.length === 0) {
-        inputClasses.push(car.alert)
+        inputClasses.push(carStyles.alert)
     } else {
-        inputClasses.push(car.success)
+        inputClasses.push(carStyles.success)
     }
 
     return (
-        <div className={car.car}>
+        <div className={carStyles.car}>
             <h3>{props.title}</h3>
             <p>Description: <strong>{props.description}</strong></p>
             <p>year: <em>{props.year}</em></p>
