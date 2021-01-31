@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import Car from './car/car'
 import {Component} from 'react'
 
@@ -47,7 +47,7 @@ class App extends Component {
     onChangeCarTitleHandler = (newTitle, index) => {
         console.log(newTitle, index)
         const cars = [...this.state.cars]
-        cars[0].title = newTitle
+        cars[index].title = newTitle
         this.setState({
             cars
         })
