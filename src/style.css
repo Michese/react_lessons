@@ -16,6 +16,7 @@ h1 {
 .content .car {
   background-color: #eee;
   border: #ccc 2px solid;
+  margin-top: 10px;
   box-shadow: 2px 2px 1px #eee;
   padding: 10px;
 }
